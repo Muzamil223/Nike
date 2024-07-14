@@ -2,18 +2,20 @@ import { copyrightSign } from "../assets/icons";
 import { footerLogo } from "../assets/images";
 import { footerLinks, socialMedia } from "../constants";
 
+// Footer section
+
 const Footer = () => {
   return (
     <footer className="max-container">
       <div className="flex justify-between items-start gap-20 flex-wrap max-lg:flex-col">
         <div className="flex flex-col items-start">
-          <a href="/">
+          <a href="">
             {" "}
             <img
               src={footerLogo}
               width={150}
               height={46}
-              alt="logo"
+              alt=""
               className="m-0"
             />
           </a>
